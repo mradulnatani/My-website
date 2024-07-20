@@ -26,10 +26,15 @@ export default function Main() {
   const handleMouseLeaveGh = (e)=>{
     e.target.style.border = '0px'
   }
-
+  const handleMouseOveri=(e)=>{
+    e.target.style.borderColor = 'red';
+  }
+  const handleMouseLeavei=(e)=>{
+    e.target.style.borderColor = 'black'
+  }
   return (
     <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }} className='mainclass'>
-      <img src={Image} alt='myimage' style={{ height: '250px', margin: 0, borderRadius: '990px', border: '2px solid black' }} className='image-container' />
+      <img src={Image} alt='myimage' style={{ height: '350px', margin: 0, borderRadius: '990px', border: '2px solid black'}} className='image-container' onMouseOver={handleMouseOveri} onMouseLeave={handleMouseLeavei}/>
       <div className='intro' style={{ float: 'left', margin: 0 }}>
         <br />
         <h4 style={{ marginBottom: '1px', fontSize: '20px' }}>Hello, I am</h4>

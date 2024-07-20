@@ -10,9 +10,7 @@ function App() {
       <br/>
       <Main/>
       <br/><br/>
-      <br/><br/>
-      <br/><br/>
-      <br/><br/>
+      <br/>
       <About/>
     </div>
   );
