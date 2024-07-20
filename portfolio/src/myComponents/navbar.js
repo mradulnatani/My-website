@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-export default function navbar() {
+export default function Navbar() {
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
