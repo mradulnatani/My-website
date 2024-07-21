@@ -19,7 +19,7 @@ export default function About() {
   }
 
   return (
-    <div style={{ marginBottom: '350px' }}>
+    <div style={{ marginBottom: '100px' }}>
       <h1
         onMouseOver={handleMouseOverabout}
         onMouseLeave={handleMouseLeaveabout}
