@@ -11,6 +11,12 @@ export default function About() {
     e.target.style.letterSpacing = '0px';
     e.target.style.color = 'black';
   };
+  const mouseoverexp=(e)=>{
+    e.target.style.borderWidth= '5px'
+  }
+  const mouseleaveexp=(e)=>{
+    e.target.style.borderWidth='3px'
+  }
 
   return (
     <div style={{ marginBottom: '350px' }}>
@@ -62,9 +68,9 @@ export default function About() {
                       margin: 'auto',
                       borderRadius: '50px',
                     }}
-                  >
+                    onMouseOver={mouseoverexp} onMouseLeave={mouseleaveexp} >
                     <div className="card-body">
-                      <h5 className="card-title" style={{ color: 'black' }}onMouseOver={handleMouseOverabout}onMouseLeave={handleMouseLeaveabout}>
+                      <h5 className="card-title" style={{ color: 'black' ,display:'inline'}}onMouseOver={handleMouseOverabout}onMouseLeave={handleMouseLeaveabout}>
                         <b>
                           <u>Experience</u>
                         </b>
@@ -87,9 +93,9 @@ export default function About() {
                       borderRadius: '50px',
                       height:'115px'
                     }}
-                  >
+                    onMouseOver={mouseoverexp} onMouseLeave={mouseleaveexp} >
                     <div className="card-body">
-                      <h5 className="card-title" style={{ color: 'black' }}onMouseOver={handleMouseOverabout}onMouseLeave={handleMouseLeaveabout}>
+                      <h5 className="card-title" style={{ color: 'black',display:'inline' }}onMouseOver={handleMouseOverabout}onMouseLeave={handleMouseLeaveabout}>
                         <b>
                           <u>Education</u>
                         </b>
