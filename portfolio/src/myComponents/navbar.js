@@ -17,7 +17,7 @@ function myFunction() {
     <a href="#" class="active" style={{letterSpacing:'3px'}}>Home</a>
     <a href="./about.js" style={{letterSpacing:'3px'}}>About</a>
     <a href="./projects.js" style={{letterSpacing:'3px'}}>Projects</a>
-    <a href='#' style={{marginLeft:'600px',fontSize:'20px',letterSpacing:'2px',color:'light',color:'lightsalmon'}}><i><b>9302956451 | mradulnatani0@gmail.com</b></i></a>
+    <a href='#' style={{marginLeft:'600px',fontSize:'20px',letterSpacing:'2px',color:'black',letterSpacing:'1px'}}><i><b>9302956451 | mradulnatani0@gmail.com</b></i></a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
