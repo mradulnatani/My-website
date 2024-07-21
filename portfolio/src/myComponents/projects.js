@@ -18,7 +18,7 @@ export default function projects() {
     e.target.style.borderWidth = '1px'
   }
   return (
-    <div style={{marginBottom:'500px'}}>
+    <div style={{marginBottom:'400px'}}>
         <h1 style={{color:'black'}}><b><u>Projects</u></b></h1>
       <div className="row row-cols-1 row-cols-md-2 g-4"style={{maxHeight:'600px',maxWidth:'500px',margin:'auto'}}>
   <div className="col">

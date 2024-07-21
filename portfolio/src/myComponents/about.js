@@ -19,7 +19,7 @@ export default function About() {
   }
 
   return (
-    <div style={{ marginBottom: '100px' }}>
+    <div style={{ marginBottom:'100px',display:'inline-block'}}>
       <h1
         onMouseOver={handleMouseOverabout}
         onMouseLeave={handleMouseLeaveabout}
@@ -41,7 +41,7 @@ export default function About() {
           display: 'block',
           borderWidth: 0,
           width: '100%',
-          maxHeight:'700px',
+          maxHeight:'1000px',
           height:'100%'
         }}
       >
@@ -111,9 +111,6 @@ export default function About() {
                 className="card-text"
                 style={{
                   textAlign: 'left',
-                  fontSize: '16px',
-                  lineHeight: '1.5',
-                  display:'flex-box'
                 }}
               >
                 Hi there, I am Mradul Natani. I was born in Ujjain. I completed
