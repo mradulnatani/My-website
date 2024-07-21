@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-website/static/css/main.de3bd5c6.css",
-    "main.js": "/My-website/static/js/main.f6ce1fe3.js",
+    "main.js": "/My-website/static/js/main.6aa0c0ff.js",
     "static/js/453.1407b060.chunk.js": "/My-website/static/js/453.1407b060.chunk.js",
     "static/media/portfolio.jpg": "/My-website/static/media/portfolio.823f1a4dd130a5175bbd.jpg",
     "static/media/blockchainlogo.jpg": "/My-website/static/media/blockchainlogo.3069e144e2340e893fac.jpg",
@@ -11,11 +11,11 @@
     "static/media/nftlogo.avif": "/My-website/static/media/nftlogo.009bf26959f22b91ba99.avif",
     "index.html": "/My-website/index.html",
     "main.de3bd5c6.css.map": "/My-website/static/css/main.de3bd5c6.css.map",
-    "main.f6ce1fe3.js.map": "/My-website/static/js/main.f6ce1fe3.js.map",
+    "main.6aa0c0ff.js.map": "/My-website/static/js/main.6aa0c0ff.js.map",
     "453.1407b060.chunk.js.map": "/My-website/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de3bd5c6.css",
-    "static/js/main.f6ce1fe3.js"
+    "static/js/main.6aa0c0ff.js"
   ]
 }
