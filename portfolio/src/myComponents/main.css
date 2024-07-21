@@ -1,10 +1,88 @@
-.image-container:hover {
-    transform: scale(1.1); 
-    transition: transform 0.3s ease; 
-    border: 15px solid black;
-  }
-ul li{
-    float: left;
-    flex: content;
+/* main.css */
+.mainclass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f0f0, #c0c0c0);
+  padding: 50px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0px;
 }
 
+.image-container {
+  height: 350px;
+  border-radius: 50%;
+  border: 2px solid black;
+  transition: border-color 0.3s;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.intro-text {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.name-text {
+  font-style: oblique;
+  color: red;
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-cv-button {
+  background-color: black;
+  color: white;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.download-cv-button:hover {
+  background-color: red;
+}
+
+.social-icon {
+  height: 30px;
+  border-radius: 50%;
+  transition: border 0.3s;
+}
+
+@media (max-width: 768px) {
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .name-text {
+    font-size: 2rem;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+
+  .download-cv-button {
+    font-size: 14px;
+    height: 35px;
+    padding: 0 15px;
+  }
+}
