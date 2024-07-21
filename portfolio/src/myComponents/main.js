@@ -6,8 +6,8 @@ import './main.css';
 
 export default function Main() {
   const handleMouseOver = (event) => {
-    event.target.style.color = 'black';
-    event.target.style.backgroundColor = 'white' 
+    event.target.style.color = 'white';
+    event.target.style.backgroundColor = 'red' 
   };
 
   const handleMouseLeave = (event) => {
@@ -33,7 +33,7 @@ export default function Main() {
     e.target.style.borderColor = 'black'
   }
   return (
-    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }} className='mainclass'>
+    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column',marginBottom:'100px' }} className='mainclass'>
       <img src={Image} alt='myimage' style={{ height: '350px', margin: 0, borderRadius: '990px', border: '2px solid black'}} className='image-container' onMouseOver={handleMouseOveri} onMouseLeave={handleMouseLeavei}/>
       <div className='intro' style={{ float: 'left', margin: 0 }}>
         <br />
@@ -44,17 +44,17 @@ export default function Main() {
         <ul style={{ listStyle: 'none', marginLeft: '40px',marginRight:'100px'}}>
           <li onMouseOver={handleMouseOver} onMouseLeave={handleMouseLeave}>
             <a href='https://www.dropbox.com/scl/fi/53trazfdjiezxcjomc0fx/Mraadul-Natani-Resume.docx?rlkey=vc7hprtxk14dc2p293c2u6z9x&st=6bfdxp7m&dl=0'>
-              <button style={{ backgroundColor: 'black', color: 'white', height: '30px', borderRadius: '30px' }}>Download CV</button>
+              <button style={{ backgroundColor: 'black', color: 'white', height: '30px', borderRadius: '30px',letterSpacing:'3px' }}>Download CV</button>
             </a>
           </li>
           <li>
             <a href='https://www.linkedin.com/in/mradul-natani-882194248/'>
-              <img src={Limg} alt='linkedin' style={{ height: '30px', borderRadius: '900px', marginLeft:'5px',marginRight:'5px' }} onMouseOver={handleMouseOverLi} onMouseLeave={handleMouseLeaveLi} />
+              <img src={Limg} alt='linkedin' style={{ height: '30px', borderRadius: '900px',margin:'auto' }} onMouseOver={handleMouseOverLi} onMouseLeave={handleMouseLeaveLi} />
             </a>
           </li>
           <li>
             <a href='https://github.com/mradulnatani'>
-              <img src={Gimg} alt='github' style={{ borderRadius: '900px', height: '30px' }} onMouseOver={handleMouseOverGh} onMouseLeave={handleMouseLeaveGh}/>
+              <img src={Gimg} alt='github' style={{ borderRadius: '900px', height: '30px',margin:'auto' }} onMouseOver={handleMouseOverGh} onMouseLeave={handleMouseLeaveGh}/>
             </a>
           </li>
         </ul>

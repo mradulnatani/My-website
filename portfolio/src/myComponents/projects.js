@@ -4,7 +4,7 @@ import Blockchainlogo from '../myComponents/blockchainlogo.jpg'
 import Portfoliologo from '../myComponents/portfolio.jpg'
 export default function projects() {
   return (
-    <div>
+    <div style={{marginBottom:'500px'}}>
     
         <h1><b><u>Projects</u></b></h1>
       <div className="row row-cols-1 row-cols-md-2 g-4"style={{maxHeight:'600px',maxWidth:'500px',margin:'auto'}}>
