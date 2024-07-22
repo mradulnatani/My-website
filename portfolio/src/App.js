@@ -3,7 +3,6 @@ import Navbar from './myComponents/navbar';
 import Main from './myComponents/main';
 import About from './myComponents/about';
 import Projects from './myComponents/projects';
-import Contact from './myComponents/Contact';
 function App() {
   return (
     <div className="App">
@@ -17,7 +16,6 @@ function App() {
       <br/>
       <About/>
       <Projects/>
-      <Contact/>
       <hr/>
       <foote>
         <p>© 2024 Mradul Natani. All rights reserved.

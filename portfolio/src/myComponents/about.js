@@ -77,7 +77,7 @@ export default function About() {
                         </b>
                       </h5>
                       <p className="card-text">
-                        Bachelor of Computer Applications
+                        Bachelor of Computer Applications + Master of Computer Applications
                       </p>
                     </div>
                   </div>
