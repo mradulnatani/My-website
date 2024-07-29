@@ -59,7 +59,7 @@ export default function About() {
                         </b>
                       </h5>
                       <p className="card-text">
-                        1 Year of experience in Frontend development
+                       1 Year of experience in Frontend development. || Participated in Hackndore Hackathone and built ASSET MANAGER PRO to solve the problem statement.
                       </p>
                     </div>
                   </div>
