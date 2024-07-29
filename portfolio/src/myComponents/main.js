@@ -60,7 +60,7 @@ export default function Main() {
         <h4 className='intro-text'>I am a full stack web developer</h4>
         <ul className='social-links'>
           <li onMouseOver={handleMouseOver} onMouseLeave={handleMouseLeave}>
-            <a href='https://www.dropbox.com/scl/fi/5vw47588zmb6ehgm9aq7k/Mraadul-Natani-Resume.docx?rlkey=s7ydl2ckql3b5limqvvlwipez&st=znaj02eb&dl=0'>
+            <a href='https://www.dropbox.com/scl/fi/4ws1wfpldc926usfroep1/Mraadul-Natani-Resume.docx?rlkey=6da5rnpujifeis0tzbg7xdmgf&st=tjx5a5mr&dl=0'>
               <button className='download-cv-button' style={{borderRadius:'500px', display:'flex-box'}}>Download CV</button>
             </a>
           </li>
