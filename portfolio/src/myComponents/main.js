@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from '../myComponents/myimage.jpg';
-import Limg from '../myComponents/linkedinlogo.png';
+import Limg from '../myComponents/linkedin.png';
 import Gimg from '../myComponents/githublogo.png';
 import './main.css';
 
@@ -61,7 +61,7 @@ export default function Main() {
         <ul className='social-links'>
           <li onMouseOver={handleMouseOver} onMouseLeave={handleMouseLeave}>
             <a href='https://www.dropbox.com/scl/fi/5vw47588zmb6ehgm9aq7k/Mraadul-Natani-Resume.docx?rlkey=s7ydl2ckql3b5limqvvlwipez&st=znaj02eb&dl=0'>
-              <button className='download-cv-button'>Download CV</button>
+              <button className='download-cv-button' style={{borderRadius:'500px', display:'flex-box'}}>Download CV</button>
             </a>
           </li>
           <li>
@@ -72,7 +72,7 @@ export default function Main() {
                 className='social-icon'
                 onMouseOver={handleMouseOverLi}
                 onMouseLeave={handleMouseLeaveLi}
-              />
+               style={{borderRadius:'500px'}}/>
             </a>
           </li>
           <li>
