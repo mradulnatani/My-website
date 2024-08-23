@@ -59,7 +59,7 @@ export default function About() {
                         </b>
                       </h5>
                       <p className="card-text">
-                       1 Year of experience in Frontend development. || Participated in Hackndore Hackathone and built ASSET MANAGER PRO to solve the problem statement.
+                        1 Year of experience in Frontend development. | Worked as a Freelancer | Participated in Hackndore Hackathone and built ASSET MANAGER PRO to solve the problem statement.
                       </p>
                     </div>
                   </div>
@@ -78,6 +78,24 @@ export default function About() {
                       </h5>
                       <p className="card-text">
                         Bachelor of Computer Applications + Master of Computer Applications
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-6 mt-3">
+                  <div
+                    className="card exp-card"
+                    onMouseOver={mouseoverexp}
+                    onMouseLeave={mouseleaveexp}
+                  >
+                    <div className="card-body">
+                      <h5 className="card-title exp-title" onMouseOver={handleMouseOverabout} onMouseLeave={handleMouseLeaveabout}>
+                        <b>
+                          <u>Achievements</u>
+                        </b>
+                      </h5>
+                      <p className="card-text">
+                        Secured position in top 10 in Hackndore Hackathone 2024
                       </p>
                     </div>
                   </div>
