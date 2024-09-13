@@ -25,7 +25,7 @@ export default function Projects() {
   };
 
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="Projects">
       <h1 className="projects-title">Projects</h1>
       <div className="row row-cols-1 row-cols-md-2 g-4 projects-grid">
         <div className="col">

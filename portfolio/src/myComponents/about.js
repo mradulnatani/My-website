@@ -29,7 +29,7 @@ export default function About() {
         className='about-title'
       >
         <b>
-          <u>About Me</u>
+          <u id="About">About Me</u>
         </b>
         <br/>
         <br/>
